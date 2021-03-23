@@ -10,6 +10,25 @@
   #btn-buscar {
     margin-left: 8px;
     width: 8%;
-  }
 
+    @media (max-width: 600px) {
+      width: 16%;
+    }
+  }
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 42px;
+  font-weight: 600;
+  color: #00008B;
+
+  @media (max-width: 600px) {
+    font-size: 30px;
+  }
+}
+
+hr {
+  color: #00008B;
 }
