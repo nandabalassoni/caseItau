@@ -1,7 +1,7 @@
 #teste {
   background-color: #ED6F00 !important;
   border-radius: 12px;
-  margin-top: 4px;
+  margin-top: 126px;
 
   #busca-usuario {
     max-width: 90%;
@@ -15,20 +15,4 @@
       width: 16%;
     }
   }
-}
-
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  margin-top: 42px;
-  font-weight: 600;
-  color: #00008B;
-
-  @media (max-width: 600px) {
-    font-size: 30px;
-  }
-}
-
-hr {
-  color: #00008B;
 }
