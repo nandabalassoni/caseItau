@@ -1,6 +1,18 @@
-<h1> Busca de usuários GitHub </h1>
-
-<hr />
-
-
 <!--p> - {{users.name}} <br> - {{users.bio}} <br> - {{users.location}} </p-->
+
+<div class="card user">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-2 col-xs-12">
+        <img class="img" src="{{users.avatar_url}}" />
+      </div>
+      <div class="col-md-6 col-xs-12" id="corpo">
+        <h2>Nome: {{users.name}} </h2>
+        <br>
+        <p><strong>Bio:</strong> {{ users.bio }}</p>
+        <br>
+        <p> <strong>Username:</strong> {{ users.login }}</p>
+      </div>
+    </div>
+  </div>
+</div>
