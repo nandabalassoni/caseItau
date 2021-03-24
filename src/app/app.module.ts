@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { UserComponent } from './user/user.component';
 import { HomeComponent } from './home/home.component';
+import { RepositoriosComponent } from './repositorios/repositorios.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     UserComponent,
-    HomeComponent
+    HomeComponent,
+    RepositoriosComponent
   ],
   imports: [
     BrowserModule,
