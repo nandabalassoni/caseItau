@@ -19,7 +19,7 @@
 .img {
   border: solid 2px#0000CD;
   border-radius: 20%;
-  height: 70%;
+  /*height: 70%;*/
   margin-left: 102%;
 
   @media (max-width: 600px) {
@@ -35,6 +35,10 @@
     border-radius: 20%;
     height: 70%;
     margin-left: -2%;
+  }
+
+  @media (max-width: 1024px) {
+    margin-left: 4%;
   }
 }
 
