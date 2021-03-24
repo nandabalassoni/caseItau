@@ -1,0 +1,15 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: -164px;
+  font-weight: 600;
+  color: #00008B;
+
+  @media (max-width: 600px) {
+    font-size: 30px;
+  }
+}
+
+hr {
+  color: #00008B;
+}
