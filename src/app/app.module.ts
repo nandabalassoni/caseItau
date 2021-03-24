@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { UserComponent } from './user/user.component';
 import { HomeComponent } from './home/home.component';
 import { RepositoriosComponent } from './repositorios/repositorios.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RepositoriosComponent } from './repositorios/repositorios.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [UserService],
   bootstrap: [AppComponent]
